@@ -26,7 +26,9 @@ class ErrorBoundary extends Component<any, any> {
     return (
       <div>
         <h1>!Oh Snap! Something has gone terribly wrong.</h1>
-        <p>Don't worry, this can be fixed but clicking right <Link href="/">here</Link></p>
+        <p>
+          Don't worry, this can be fixed but clicking right <Link href='/'>here</Link>
+        </p>
       </div>
     )
   }

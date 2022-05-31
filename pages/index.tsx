@@ -19,9 +19,11 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
-        <button type="button" onClick={() => setLoading(true)}>Show loading</button>
+        <button type='button' onClick={(): void => setLoading(true)}>
+          Show loading
+        </button>
       </main>
-      { loading && <Loading /> }
+      {loading && <Loading />}
     </div>
   )
 }
